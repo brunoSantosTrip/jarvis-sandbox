@@ -8,4 +8,5 @@ def apply_discount(price_cents: int, percent_off: int) -> int:
 
 def total_with_tax(price_cents: int, tax_percent: int) -> int:
     """Return the price with tax added, in whole cents."""
+    tax_percent = max(tax_percent, 0)
     return price_cents + (price_cents * tax_percent // 100)

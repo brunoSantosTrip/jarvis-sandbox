@@ -11,3 +11,7 @@ def test_apply_discount_of_nothing_changes_nothing():
 
 def test_total_with_tax_adds_the_percentage():
     assert total_with_tax(1000, 10) == 1100
+
+
+def test_total_with_tax_treats_negative_tax_as_zero():
+    assert total_with_tax(1000, -10) == 1000
