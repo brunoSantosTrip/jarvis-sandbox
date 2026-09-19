@@ -16,3 +16,7 @@ negative price:
 
 A price should never be negative, and a discount above 100% should be treated
 as 100%.
+
+---
+
+_This pull request was opened from a Jira ticket (TESTP-605), not from Slack._
