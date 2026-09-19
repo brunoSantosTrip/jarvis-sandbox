@@ -16,3 +16,8 @@ negative price:
 
 A price should never be negative, and a discount above 100% should be treated
 as 100%.
+
+## Histórico
+
+- PR aberto a partir do ticket Jira TESTP-605 (sandbox de fase 3 do Jarvis).
+
